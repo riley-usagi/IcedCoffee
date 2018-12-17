@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IcedCoffee'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'Technical pod'
   s.description      = 'Simple Drawer'
   s.homepage         = 'https://github.com/riley-usagi/IcedCoffee'
