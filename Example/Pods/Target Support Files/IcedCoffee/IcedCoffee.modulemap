@@ -1,0 +1,6 @@
+framework module IcedCoffee {
+  umbrella header "IcedCoffee-umbrella.h"
+
+  export *
+  module * { export * }
+}

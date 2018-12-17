@@ -1,0 +1,16 @@
+PODS:
+  - IcedCoffee (0.1.0)
+
+DEPENDENCIES:
+  - IcedCoffee (from `../`)
+
+EXTERNAL SOURCES:
+  IcedCoffee:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IcedCoffee: 0d46d1b41e59eac8206432240edda8d134c32db7
+
+PODFILE CHECKSUM: 4633ab00b4c12ddc6f0719349f1e1bc480fa047a
+
+COCOAPODS: 1.6.0.beta.2

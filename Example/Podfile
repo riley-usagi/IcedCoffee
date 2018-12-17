@@ -1,0 +1,6 @@
+use_frameworks!
+target 'IcedCoffee_Tests' do
+  pod 'IcedCoffee', :path => '../'
+  
+  
+end
