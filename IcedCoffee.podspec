@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'IcedCoffee'
   s.version          = '1.0.0'
   s.summary          = 'Technical pod'
-  s.description      = 'Simpla Drawer'
+  s.description      = 'Simple Drawer'
   s.homepage         = 'https://github.com/riley-usagi/IcedCoffee'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Riley Usagi' => 'riley.usagi@gmail.com' }

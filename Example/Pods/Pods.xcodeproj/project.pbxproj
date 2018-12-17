@@ -11,6 +11,8 @@
 		3A2E943222B754C33D9AFC679AAA38FB /* Pods-IcedCoffee_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A62BFCB1F0AD9BBCF63FAF67CC297B /* Pods-IcedCoffee_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DB24237489173B859E8705E45FB6912 /* IcedCoffee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C255AAB0656D4CE5CD1E89829BF9B766 /* IcedCoffee-dummy.m */; };
 		BC873C3C4A24DE9720CD122DEE240FEC /* Pods-IcedCoffee_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B0164E09CACA64355F0743DEDA7D3 /* Pods-IcedCoffee_Tests-dummy.m */; };
+		BFA5907621C7A5F300CA70C2 /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5907521C7A5F300CA70C2 /* Drawer.swift */; };
+		BFA5907821C7A62100CA70C2 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5907721C7A62100CA70C2 /* Geometry.swift */; };
 		C3525D563CD46AFFDCAD4D99A1C3FF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		D41A70A15F28A46737B5A0127F535763 /* IcedCoffee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2470BD93AB0B8312FC372843F9A4C18D /* IcedCoffee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F938BFFC62117D3F57175603ACBE86C0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D63DB19FA864885809936E688B37C5 /* ReplaceMe.swift */; };
@@ -41,6 +43,8 @@
 		ADFC6C7D01A1E1B2C3705786F324833C /* Pods-IcedCoffee_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IcedCoffee_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF50ED4F751EC71DB9C0B688BAE720EB /* IcedCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IcedCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA5907521C7A5F300CA70C2 /* Drawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		BFA5907721C7A62100CA70C2 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
 		C21E53B90C250FFE6D89142F6F43A7A4 /* Pods-IcedCoffee_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IcedCoffee_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C255AAB0656D4CE5CD1E89829BF9B766 /* IcedCoffee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IcedCoffee-dummy.m"; sourceTree = "<group>"; };
 		C4932087069AD27E6B818F8C00EF3F71 /* Pods-IcedCoffee_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IcedCoffee_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		400A03FCAC5304BCE24AA6BD7BBEA2E7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				BFA5907421C7A5DE00CA70C2 /* Classes */,
 				1AD02F103DE49E7EFABADF50F36DF99E /* IcedCoffee.podspec */,
 				D1E81C87871EE1EF38788BE157DDA347 /* LICENSE */,
 				E79983585A7D4099398046E5A05C273D /* README.md */,
@@ -149,6 +154,15 @@
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA5907421C7A5DE00CA70C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5907521C7A5F300CA70C2 /* Drawer.swift */,
+				BFA5907721C7A62100CA70C2 /* Geometry.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		C1290FD85F882ACBE8C432A0675A0BB2 /* Targets Support Files */ = {
@@ -298,6 +312,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB24237489173B859E8705E45FB6912 /* IcedCoffee-dummy.m in Sources */,
+				BFA5907821C7A62100CA70C2 /* Geometry.swift in Sources */,
+				BFA5907621C7A5F300CA70C2 /* Drawer.swift in Sources */,
 				F938BFFC62117D3F57175603ACBE86C0 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
