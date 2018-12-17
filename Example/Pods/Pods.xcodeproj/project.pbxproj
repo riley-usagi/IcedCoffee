@@ -15,7 +15,6 @@
 		BFA5907821C7A62100CA70C2 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA5907721C7A62100CA70C2 /* Geometry.swift */; };
 		C3525D563CD46AFFDCAD4D99A1C3FF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		D41A70A15F28A46737B5A0127F535763 /* IcedCoffee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2470BD93AB0B8312FC372843F9A4C18D /* IcedCoffee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F938BFFC62117D3F57175603ACBE86C0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D63DB19FA864885809936E688B37C5 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		0B74FE5B406DD1E504897B0C8082DC13 /* Pods-IcedCoffee_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IcedCoffee_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		14D63DB19FA864885809936E688B37C5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IcedCoffee/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1AD02F103DE49E7EFABADF50F36DF99E /* IcedCoffee.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IcedCoffee.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2470BD93AB0B8312FC372843F9A4C18D /* IcedCoffee-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IcedCoffee-umbrella.h"; sourceTree = "<group>"; };
 		3D8799788B8DA65CC381A5D57384B7E2 /* Pods-IcedCoffee_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IcedCoffee_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -88,7 +86,7 @@
 		400A03FCAC5304BCE24AA6BD7BBEA2E7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BFA5907421C7A5DE00CA70C2 /* Classes */,
+				BF43E35E21C7ABDC0098C22F /* Classes */,
 				1AD02F103DE49E7EFABADF50F36DF99E /* IcedCoffee.podspec */,
 				D1E81C87871EE1EF38788BE157DDA347 /* LICENSE */,
 				E79983585A7D4099398046E5A05C273D /* README.md */,
@@ -121,7 +119,6 @@
 		74A0E61378D9E8B86724F38AD87A454C /* IcedCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				14D63DB19FA864885809936E688B37C5 /* ReplaceMe.swift */,
 				400A03FCAC5304BCE24AA6BD7BBEA2E7 /* Pod */,
 				6685771DC09F8B3F73C442A0A5E32DBE /* Support Files */,
 			);
@@ -156,13 +153,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFA5907421C7A5DE00CA70C2 /* Classes */ = {
+		BF43E35E21C7ABDC0098C22F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BFA5907521C7A5F300CA70C2 /* Drawer.swift */,
 				BFA5907721C7A62100CA70C2 /* Geometry.swift */,
+				BFA5907521C7A5F300CA70C2 /* Drawer.swift */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C1290FD85F882ACBE8C432A0675A0BB2 /* Targets Support Files */ = {
@@ -314,7 +311,6 @@
 				3DB24237489173B859E8705E45FB6912 /* IcedCoffee-dummy.m in Sources */,
 				BFA5907821C7A62100CA70C2 /* Geometry.swift in Sources */,
 				BFA5907621C7A5F300CA70C2 /* Drawer.swift in Sources */,
-				F938BFFC62117D3F57175603ACBE86C0 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
