@@ -1,5 +1,7 @@
 # IcedCoffee
 
+Вращение объекта по кругу однм пальцем вместо двух
+
 ## Requirements
 
 ## Installation
